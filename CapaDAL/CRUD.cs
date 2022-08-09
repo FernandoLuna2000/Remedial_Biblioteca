@@ -21,7 +21,7 @@ namespace CapaDAL
 
         public List<Usuarios> ListaUsuarios(ref string mensaje, ref string mensajeC)//Metodo de la Lista Actualización
         {
-            string comandoSql = "select * from actualizacion;", etiqueta = "InventarioPCsLabs";//Variables y Utilidades
+            string comandoSql = "select * from usuarios;", etiqueta = "Biblioteca3";//Variables y Utilidades
             DataSet dataSet = null;
             DataTable dataTable = null;
 
